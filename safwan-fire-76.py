@@ -22,7 +22,7 @@ try:
     open('.prox.txt','w').write(prox)
 except Exception as e:
     pass
-prox=open('.prox.txt','r').read().splitlines()
+
 #__________________[ LOOP ]__________________#
 loop,ok,cp,user = 0,[],[],[]
 cok,plist = [],[]
